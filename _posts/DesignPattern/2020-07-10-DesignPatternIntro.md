@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: assets/images/water.jpg
+cover: assets/images/Outstanding-Set-of-Software-Engineers-Vectors-3.jpg
 navigation: True
 title: 디자인 패턴 with Typescript
 date: 2020-07-10 10:18:00
