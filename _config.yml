@@ -77,6 +77,7 @@ source_url: https://github.com/korECM/korEcmGitHubBlogSource/
 
 exclude:
   - assets/css
+  - source
   - node_modules
   - vendor
   - .travis.yml
