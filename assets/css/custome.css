@@ -69,13 +69,11 @@ span.table-of-contents-list {
 
   border-bottom: 1px solid #efefef;
 
-  font-size: 18px;
+  font-size: 23px;
 
   font-weight: bold;
 
-  color: #ce180b;
-
-  font-family: Georgia, "Nanum Gothic", serif !important;
+  font-family: "Sunflower", serif !important;
 }
 
 ul.table-of-contents-list,
@@ -90,7 +88,11 @@ ol.table-of-contents-list {
 
   width: 100%;
 
-  font-family: Georgia, "Nanum Gothic", serif !important;
+  font-family: "Sunflower", serif !important;
+
+  margin-bottom: 25px;
+
+  letter-spacing: 1.5px;
 }
 
 ul.table-of-contents-list li,
@@ -99,7 +101,7 @@ ol.table-of-contents-list li {
 
   margin-bottom: 5px;
 
-  font-size: 15px;
+  font-size: 17px;
 }
 
 ul.table-of-contents-list li a,
@@ -113,7 +115,7 @@ ol.table-of-contents-list li a {
 
 ul.table-of-contents-list li a:hover,
 ol.table-of-contents-list li a:hover {
-  color: #c2255c;
+  color: #26a8ed;
 
   text-decoration: none;
 
@@ -185,7 +187,7 @@ ol.font-awesome-list li span.icon-value {
 
   color: #c2255c;
 
-  font-size: 15px;
+  font-size: 16px;
 }
 
 ul.font-awesome-list li,
