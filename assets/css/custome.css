@@ -1135,3 +1135,7 @@ All this is done for any sub-level being entered.
 .entry-title {
   font-size: large;
 }
+
+.gist {
+  width: 100%;
+}
