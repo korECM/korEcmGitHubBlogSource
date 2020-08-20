@@ -12,7 +12,7 @@ baseurl: /
 title: 쿠키먹는 사람
 description: 쿠키먹는 사람의 블로그
 cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
+logo: assets/images/blog-logo.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
 CNAME: #add cname for website to be created
