@@ -62,11 +62,25 @@ class Whip extends BeverageDecorator {
   }
 }
 
-let myCoffee = new Americano();
-console.log(`${myCoffee.getDescription()}는 ${myCoffee.cost()}원입니다~`);
+class Mocha extends BeverageDecorator {
+  private beverage: Beverage;
+  constructor(beverage: Beverage) {
+    super();
+    this.beverage = beverage;
+  }
+  getDescription() {
+    return this.beverage.getDescription() + ", 모카";
+  }
+  cost() {
+    return this.beverage.cost() + 300;
+  }
+}
 
-let myCoffee2 = new CaffeeLatte();
-myCoffee2 = new Ice(myCoffee2);
-myCoffee2 = new Whip(myCoffee2);
-myCoffee2 = new Whip(myCoffee2);
-console.log(`${myCoffee2.getDescription()}는 ${myCoffee2.cost()}원입니다~`);
+// let myCoffee = new Americano();
+// console.log(`${myCoffee.getDescription()}는 ${myCoffee.cost()}원입니다~`);
+
+// let myCoffee2 = new CaffeeLatte();
+// myCoffee2 = new Ice(myCoffee2);
+// myCoffee2 = new Whip(myCoffee2);
+// myCoffee2 = new Whip(myCoffee2);
+// console.log(`${myCoffee2.getDescription()}는 ${myCoffee2.cost()}원입니다~`);
