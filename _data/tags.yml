@@ -6,3 +6,7 @@ DesignPattern:
   name: DesignPattern
   description: False
   cover: assets/images/speeches.jpg
+DB:
+  name: DB
+  description: False
+  cover: assets/images/speeches.jpg
