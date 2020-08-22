@@ -73,7 +73,7 @@ span.table-of-contents-list {
 
   font-weight: bold;
 
-  font-family: "Sunflower", serif !important;
+  font-family: Georgia, Nanum Gothic, serif;
 }
 
 ul.table-of-contents-list,
@@ -88,8 +88,7 @@ ol.table-of-contents-list {
 
   width: 100%;
 
-  font-family: "Sunflower", serif !important;
-
+  font-family: Georgia, Nanum Gothic, serif;
   margin-bottom: 25px;
 
   letter-spacing: 1.5px;
@@ -115,7 +114,7 @@ ol.table-of-contents-list li a {
 
 ul.table-of-contents-list li a:hover,
 ol.table-of-contents-list li a:hover {
-  color: #26a8ed;
+  color: #677b85;
 
   text-decoration: none;
 
