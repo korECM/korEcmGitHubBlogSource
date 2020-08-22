@@ -4,7 +4,7 @@ current: post
 cover: 
 navigation: True
 title: 데이터베이스 정규화 이론 3. 2NF, 3NF, BCNF
-date: 2020-08-21 07:18:00
+date: 2020-08-21 00:00:00
 tags: [DB]
 class: post-template
 subclass: 'post tag-DB'
