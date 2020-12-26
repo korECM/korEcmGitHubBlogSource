@@ -2,7 +2,7 @@
 markdown: kramdown
 highlighter: rouge
 paginate: 20 # it will paginate after this number
-language: "en-uk"
+language: "ko"
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)

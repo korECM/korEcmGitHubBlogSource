@@ -10,3 +10,7 @@ DB:
   name: DB
   description: False
   cover: assets/images/speeches.jpg
+Java:
+  name: Java
+  description: False
+  cover: assets/images/room.jpg
