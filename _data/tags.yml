@@ -14,3 +14,7 @@ Java:
   name: Java
   description: False
   cover: assets/images/room.jpg
+Spring:
+  name: Spring
+  description: False
+  cover: assets/images/room.jpg
