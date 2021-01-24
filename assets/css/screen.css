@@ -607,46 +607,114 @@ The first (most recent) post in the list is styled to be bigger than the others 
 }
 
 .post-full-image {
-  margin: 0 -10vw -165px;
-  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  margin: 25px 0 50px;
   background: var(--lightgrey) center center;
-  background-size: cover;
-  border-radius: 5px;
+  border-radius: 3px;
+}
+
+.post-full-image img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
 }
 
 @media (max-width: 1170px) {
   .post-full-image {
-    margin: 0 -4vw -100px;
-    height: 600px;
+    margin: 25px -6vw 50px;
     border-radius: 0;
+  }
+
+  .post-full-image img {
+    max-width: 250px;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .post-full-image {
-    height: 400px;
+    margin: 25px -5vw;
   }
 }
+
+@media (max-width: 500px) {
+  /*.post-full-meta {*/
+  /*  font-size: 1.2rem;*/
+  /*  line-height: 1.3em;*/
+  /*}*/
+
+  /*.post-full-title {*/
+  /*  margin-top: 0.2em;*/
+  /*  font-size: 4.2rem;*/
+  /*  line-height: 1.05em;*/
+  /*}*/
+
+  .post-full-image {
+    margin-top: 5px;
+    margin-bottom: 5vw;
+  }
+
+  /*.post-full-content {*/
+  /*  padding: 0;*/
+  /*}*/
+
+  /*.post-full-content:before,*/
+  /*.post-full-content:after {*/
+  /*  display: none;*/
+  /*}*/
+}
+
+
+/*.post-full-image {*/
+/*  margin: 0 -10vw -165px;*/
+/*  height: 800px;*/
+/*  background: var(--lightgrey) center center;*/
+/*  background-size: cover;*/
+/*  border-radius: 5px;*/
+/*}*/
+
+/*@media (max-width: 1170px) {*/
+/*  .post-full-image {*/
+/*    margin: 0 -4vw -100px;*/
+/*    height: 600px;*/
+/*    border-radius: 0;*/
+/*  }*/
+/*}*/
+
+/*@media (max-width: 800px) {*/
+/*  .post-full-image {*/
+/*    height: 400px;*/
+/*  }*/
+/*}*/
 
 .post-full-content {
   position: relative;
   margin: 0 auto;
-  padding: 70px 100px 0;
+  padding: 0 170px 6vw;
   min-height: 230px;
-  font-family: Georgia, "Nanum Gothic", serif;
-  font-size: 2.2rem;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 2.0rem;
   line-height: 1.6em;
   background: #fff;
 }
 
 @media (max-width: 1170px) {
   .post-full-content {
-    padding: 5vw 7vw 0;
+    padding: 0 11vw;
   }
 }
 @media (max-width: 800px) {
   .post-full-content {
+    padding: 0 5vw;
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 500px) {
+  .post-full-custom-excerpt {
     font-size: 1.9rem;
+    line-height: 1.5em;
   }
 }
 
@@ -986,7 +1054,7 @@ Usage (In Ghost editor):
   }
   .post-full-image {
     margin-bottom: 4vw;
-    height: 350px;
+    /*height: 350px;*/
   }
   .post-full-content {
     padding: 0;

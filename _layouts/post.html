@@ -42,8 +42,13 @@ into the {body} of the default.hbs template -->
             </header>
 
             {% if page.cover %}
-            <figure class="post-full-image" style="background-image: url({{ site.baseurl }}{{ page.cover }})">
+            <figure class="post-full-image">
+                <img sizes="(max-width: 800px) 400px,
+                            (max-width: 1170px) 1170px,
+                                2000px" src="{{ site.baseurl }}{{ page.cover }}" alt="logo">
             </figure>
+<!--            <figure class="post-full-image" style="background-image: url({{ site.baseurl }}{{ page.cover }})">-->
+<!--            </figure>-->
             {% endif %}
 
             <section class="post-full-content">
